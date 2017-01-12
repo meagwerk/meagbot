@@ -1,0 +1,58 @@
+﻿@model meagbot.Models.Messages
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Messages</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.UserId)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.UserId)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.AnswersBytes)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.AnswersBytes)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.ContactMe)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.ContactMe)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.Self)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.Self)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.MessageId }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
