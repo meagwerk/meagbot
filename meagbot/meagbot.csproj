@@ -176,6 +176,7 @@
     <Content Include="Global.asax" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Properties\PublishProfiles\meagbot - Web Deploy.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -200,17 +201,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201612271402443_InitialCreate.cs" />
-    <Compile Include="Migrations\201612271402443_InitialCreate.Designer.cs">
-      <DependentUpon>201612271402443_InitialCreate.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201612281301018_Initial.cs" />
-    <Compile Include="Migrations\201612281301018_Initial.Designer.cs">
-      <DependentUpon>201612281301018_Initial.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201612281415522_InitialNew.cs" />
-    <Compile Include="Migrations\201612281415522_InitialNew.Designer.cs">
-      <DependentUpon>201612281415522_InitialNew.cs</DependentUpon>
+    <Compile Include="Migrations\201701131640071_Initial.cs" />
+    <Compile Include="Migrations\201701131640071_Initial.Designer.cs">
+      <DependentUpon>201701131640071_Initial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Answers.cs" />
@@ -253,14 +246,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201612271402443_InitialCreate.resx">
-      <DependentUpon>201612271402443_InitialCreate.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201612281301018_Initial.resx">
-      <DependentUpon>201612281301018_Initial.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201612281415522_InitialNew.resx">
-      <DependentUpon>201612281415522_InitialNew.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201701131640071_Initial.resx">
+      <DependentUpon>201701131640071_Initial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
